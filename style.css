@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: opx;
+}
+body{
+    
+    font-family: "Work Sans", sans-serif;
+}
+header{
+    padding: 0px 200px;
+background-color: #fff4e7;
+}
+.baba{
+    display:grid ;
+    grid-template-columns:repeat(2,1fr) ;
+    padding-top: 50px;
+}
+.boro{
+    font-weight: 700;
+    font-size: 45px;
+     margin-bottom: 100px;
+}
+.choto ul{
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    text-align: center;
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+.passages {
+    font-size: 16px;
+    color: #848281;
+}
+.Explore{
+    padding: 20px 25px;
+    background-color: #ff900e;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.nav_ar_niche{
+    text-align: center;
+}
+.team_work_banner{
+    /* border: 2px solid red; */
+    position: relative;
+
+}
+.lineyar{
+/* background-color: black; */
+position: absolute;
+width: 100%;
+height: 100%;
+opacity: .5;
+/* background-image:linear-gradient(to top,yellow,red); */
+}
+.team_work_banner img{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 55px;
+}
+/* Quick list of Our Features */
+.flex{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 85px;
+     /*margin-right: 70px; */
+    justify-content: center;
+    align-items: center;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+   margin-left: 200px;
+}
+.Quick1{
+    margin-left: 100px;
+    
+}
+.Quick{
+    font-weight: 700;
+    font-size: 45px
+}
+.Quick-list{
+    color:#727272 ;
+}
+.Feat{
+    color: #ff900e;
+}
+/* Features you will love & enjoy */
+.Features{
+    display: flex;
+    margin: 130px  104px  130px 240px ;
+}
+.enjoy{
+    /* margin-right: 145px; */
+}
+.love{
+    font-weight: 700;
+    font-size: 45px;
+    border-left: 5px solid #ff900e;
+    padding-left: 21px;
+
+}
+.singlepic{
+    margin-left: 50px;
+}
+
+.Drag{
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+.Year{
+padding-left: 46px;
+padding-right: 46px;
+padding-top: 32px;
+padding-bottom: 42px;
+background-color: #ff900e;
+color: white;
+margin-top: -700px ;
+margin-left: -70px;
+border: none;
+border-radius: 8px;
+}
+.h1{
+    font-weight: 700;
+    font-size: 65px;
+}
+.ex{
+    font-weight: 500;
+    font-size: 25px;
+}
+.shedo{
+    padding: 30px;
+    box-shadow: 10px 10px 10px 10px #f8f8f8;
+}
+.There{
+    font-size: 16px;
+    color: #9e9e9e;
+}
+/* Some Facts */
+.some{
+    margin-left: 240px;
+}
+.all{
+    display: flex;
+    /* margin: 100px 290px 180px 290px; */
+    margin-left: 290px;
+    margin-top: 100px;
+}
+.taka{
+   border: 1px solid #ff900e;
+   margin-right: 124px;
+   padding: 40px  ;
+   border-radius: 8px;
+   
+}
+.hend{
+ margin-left: 60px;   
+}
+.sob{
+    color:#88857f ;
+}
+/* Our Sponspors */
+.our{
+    margin-top: 180px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.ou{
+font-weight: 700;
+font-size: 45px;
+}
+.sponsors{
+    display: flex;
+    margin-left: 240px;
+    margin-bottom: 269px;
+}
+.spotify{
+    margin-right: 100px;
+    color:#878787;
+}
+.amazon{
+    margin-right: 100px;
+}
+.google{
+    margin-right: 100px;
+}
+.telerama{
+    margin-right: 100px;
+}
+.All{
+    margin-left: 240px;
+    margin-right: 240px;
+    text-align: center;
+    padding: 40px 210px;
+    background-color: #fff4e7;
+    font-size: 20px;
+    color: #88857f;
+    margin-bottom: 216px;
+}
+@media screen and ( max-width: 576px ) {
+    header{
+        padding: 0px 10px;
+
+    }
+    .baba{
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .choto ul{
+        flex-direction: column;
+    }
+    .boro{
+
+         margin-bottom: 10px;
+    }
+    .Explore{
+          margin: 10px;
+          padding: 10px;
+    }
+    .team_work_banner img{
+        margin-bottom: 10px;
+    }
+    .flex{
+        margin: 10px;
+        flex-direction: column;
+    }
+    .images{
+        flex-direction: column;
+       margin-left: 10px;
+    }
+    .Quick1{
+        margin-left: 10px;
+        
+    }
+    .Features{
+        flex-direction: column;
+        margin: 10px  ;
+    }
+    .love{
+        
+        padding-left: 10px;
+    
+    }
+    .singlepic{
+        margin-left: 10px;
+    }
+    .Year{
+    /* padding:10px; */
+    margin-top: -10px ;
+    margin-left: -10px;
+    }
+    .shedo{
+        padding: 10p;
+    }
+
+    /* Some Facts */
+    .some{
+        margin-left: 10px;
+    }
+    .all{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .taka{
+        margin-right: 10px;
+        padding: 10px  ;
+     }
+     .hend{
+      margin-left: 10px;   
+     }
+     /* Our Sponspors */
+.our{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sponsors{
+    flex-direction: column;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.spotify{
+    margin-left: 50px;
+    padding:10px 50px;
+}
+.amazon{
+    margin-left: 50px;
+    padding:10px 50px;
+}
+.google{
+    margin-left: 50px;
+    padding:10px 50px;
+}
+.telerama{
+    margin-left: 50px;
+    padding:20px 50px;
+}
+.figma{
+margin-left: 50px;
+    padding: 10px 50px;
+}
+.All{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding:10px;
+    margin-bottom: 10px;
+}
+.singlepic img{
+    height:100% ;
+    width:100% ;
+}1
+
+}
